@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+#main-container {
+    margin: auto;
+    width: 500px;
+}
+
+ul {
+    background-color: #ccc;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    width: 240px;
+}
+
+li {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+form {
+    background-color: #ccc;
+    margin: auto;
+    text-align: center;
+    width: 240px;
+}
+
+input {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+#inner-html-practice {
+    background-color: #ccc;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
